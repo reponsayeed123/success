@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+    <!-- Style -->
+    <link rel="stylesheet" href="css/style.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css ">
+
+    <title>Contact Form #10</title>
+    <style>
+      .row2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+
+}
+    </style>
+  </head>
+  <body>
+  
+
+  <div class="content">
+    
+    <div class="container">
+      <div class="row align-items-stretch justify-content-center no-gutters">
+        <div class="col-md-7">
+          <div style="background: rgb(41, 51, 104); height: 65px;width: 100%;">
+            <img src="images/WhatsApp Image 2025-02-15 at 8.54.37 PM-Photoroom.png" style="height: 60px;">
+          </div>
+
+          <div class="row2" style="background: rgb(138, 139, 147); height: 50px;width: 100%;">
+            <div class="col-md-4 form-group mb-3" style="padding-top: 12px;">
+            
+             <h6 style="color: white;">General Electric</h6>
+            </div>
+            <div class="col-md-8 form-group mb-3">
+              <h6 style="color: white;text-align: right;" id="dt">19 Dec 2024</h6>
+              <h6 style="color: white;text-align: right;" id="tim">11.30 AM</h6>
+            
+            </div>
+          </div>
+     
+         
+     
+          
+          <div class="form contact-wrap p-5">
+           
+              <h5 class="mb-0" style="margin-top: -25px;">Payment Successful <i class="fa fa-check-circle" aria-hidden="true" style="color: green;"></i></h5>
+
+       
+            <form  method="post" id="contactForm" name="contactForm">
+              <div class="row" style="margin-top: 20px;">
+                <div class="col-md-4 form-group mb-3">
+                
+                 <h6>Reference Number</h6>
+                </div>
+                <div class="col-md-6 form-group mb-3" >
+                  <h6 id="reference"></h6>
+                
+                </div>
+              </div>
+
+              <div class="row" style="margin-top: -10px;">
+                <div class="col-md-4 form-group mb-3">
+                
+                 <h6>Bank Name</h6>
+                </div>
+                <div class="col-md-6 form-group mb-3">
+                  <h6 id="bank_name"></h6>
+                
+                </div>
+              </div>
+              <div class="row" style="margin-top: -10px;">
+                <div class="col-md-4 form-group mb-3">
+                
+                 <h6>Account Type</h6>
+                </div>
+                <div class="col-md-6 form-group mb-3">
+                  <h6 id="account_type"></h6>
+                
+                </div>
+              </div>
+
+
+
+
+              <div class="row" style="margin-top: -10px;">
+                <div class="col-md-4 form-group mb-3">
+                
+                 <h6>Account Number</h6>
+                </div>
+                <div class="col-md-6 form-group mb-3">
+                  <h6 id="account_number"></h6>
+                
+                </div>
+              </div>
+              <div class="row" style="margin-top: -10px;">
+                <div class="col-md-4 form-group mb-3">
+                
+                 <h6>Transfer From</h6>
+                </div>
+                <div class="col-md-6 form-group mb-3">
+                  <h6 id="transfer_form"></h6>
+                
+                </div>
+              </div>
+
+
+
+
+              <div class="row" style="margin-top: -10px;">
+                <div class="col-md-4 form-group mb-3">
+                
+                 <h6>Account Name</h6>
+                </div>
+                <div class="col-md-6 form-group mb-3">
+                  <h6 id="account_name"></h6>
+                
+                </div>
+              </div>
+              <div class="row" style="margin-top: -10px;">
+                <div class="col-md-4 form-group mb-3">
+                
+                 <h6>Amount</h6>
+                </div>
+                <div class="col-md-6 form-group mb-3">
+                  <h6 id="amount"></h6>
+                
+                </div>
+              </div>
+
+
+
+
+              <div class="row" style="margin-top: -10px;">
+                <div class="col-md-4 form-group mb-3">
+                
+                 <h6>Purpose</h6>
+                </div>
+                <div class="col-md-6 form-group mb-3">
+                  <h6 id="purpose"></h6>
+                
+                </div>
+              </div>
+              <div class="row" style="margin-top: -10px;">
+                <div class="col-md-4 form-group mb-3">
+                
+                 <h6>Transfer When</h6>
+                </div>
+                <div class="col-md-6 form-group mb-3">
+                  <h6 id="transfer_when"></h6>
+                
+                </div>
+              </div>
+
+              <div class="row" style="margin-top: -10px;">
+                <div class="col-md-4 form-group mb-3">
+                
+                 <h6>Note</h6>
+                </div>
+                <div class="col-md-6 form-group mb-3">
+                  <h6 id="note"></h6>
+                
+                </div>
+              </div>
+              
+             
+            </form>
+
+        
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+    
+    
+  <script src="https://www.gstatic.com/firebasejs/7.14.6/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.14.6/firebase-database.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.14.6/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.14.6/firebase-firestore.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/main.js"></script>
+
+
+
+    <script>
+
+      const firebaseConfig = {
+          apiKey: "AIzaSyBYHfeYu_nB8tJLZKkjtC017kepwtnnkSg",
+          authDomain: "loan-5d609.firebaseapp.com",
+          databaseURL: "https://loan-5d609-default-rtdb.firebaseio.com",
+          projectId: "loan-5d609",
+          storageBucket: "loan-5d609.firebasestorage.app",
+          messagingSenderId: "710671627106",
+          appId: "1:710671627106:web:fec517824971c9a708723b"
+      };
+      
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      
+      
+      
+      var reference = "";
+      var bank_name = "";
+      
+      var account_type = "";
+      
+      var account_number = "";
+      
+      var account_name= "";
+      
+      var transfer_form = "";
+      
+      var amount = "";
+      
+      var purpose = "";
+      
+      var note = "";
+      
+      var application_date = "";
+      var dt = '';
+      var tim = '';
+      
+      var ref5 = firebase.database().ref().child("payment_success").child('1');
+      
+      
+      ref5.on("value", function (snapshot4) {
+        if (snapshot4.exists()) {
+      
+      
+      
+          reference = snapshot4.val().reference;
+          bank_name = snapshot4.val().bank_name;
+          account_type = snapshot4.val().account_type;
+          account_number = snapshot4.val().account_number;
+          account_name = snapshot4.val().account_name;
+          transfer_form = snapshot4.val().transfer_form;
+          amount = snapshot4.val().amount;
+          purpose = snapshot4.val().purpose;
+          note = snapshot4.val().note
+          application_date = snapshot4.val().application_date
+          dt = snapshot4.val().dt
+          tim = snapshot4.val().tim
+      
+      
+      
+      
+      
+      
+        }
+      
+      
+      
+      
+        $('#reference').html(reference);
+      
+      
+      
+        $('#bank_name').html(bank_name);
+        // $('#amount').val(amount);
+        $('#amount').html(amount);
+        $('#account_type').html(account_type);
+        $('#account_number').html(account_number);
+      
+        $('#transfer_form').html(transfer_form);
+        $('#purpose').html(purpose);
+        $('#transfer_when').html(application_date);
+        $('#account_name').html(account_name);
+        $('#note').val(note);
+
+        $('#dt').html(dt);
+        $('#tim').val(tim);
+      
+        //  $('#per_installment').val(per_installment);
+      
+      
+      
+      });
+        
+          
+          
+                      
+      
+      
+      
+      
+      
+        </script>
+  </body>
+</html>
